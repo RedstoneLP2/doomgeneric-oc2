@@ -1,0 +1,1864 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Tue Apr 19 18:49:40 2022
+
+# Variables
+
+# environment
+GDK_BACKEND = x11
+# makefile (from 'Makefile', line 25)
+OUTPUT = doomgeneric
+# environment
+LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
+# makefile (from 'Makefile', line 24)
+OBJDIR = build
+# environment
+SPOTIPY_CLIENT_ID = 0711a27bd32a49218662794357a5634e
+# environment
+CSF_EXCEPTION_PROMPT = 1
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-5c7f5d4b-5b7b-469b-8e57-e7f0113d6170.sock
+# environment
+CSF_XmlOcafResource = /usr/share/opencascade/resources/XmlOcafResource
+# environment
+LC_NAME = de_DE.UTF-8
+# environment
+LC_NUMERIC = de_DE.UTF-8
+# environment
+VSCODE_CWD = /mnt/1TB-SSD/home/redstonelp2/GIT/risc-v/doomgeneric/doomgeneric
+# environment
+WINDOWID = 54674408
+# makefile (from 'Makefile', line 21)
+LIBS = -lm -lc
+# environment
+MMGT_CLEAR = 1
+# environment
+RAWWAVE_PATH = /usr/share/stk/rawwaves
+# environment
+CSF_XCAFDefaults = /usr/share/opencascade/resources/StdResource
+# environment
+CSF_PluginDefaults = /usr/share/opencascade/resources/StdResource
+# environment
+CASROOT = /usr
+# environment
+LC_ADDRESS = de_DE.UTF-8
+# default
+MAKE_COMMAND := make
+# environment
+GTK3_MODULES = xapp-gtk3-module
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+MYSQLDOCKER = -u root -h 172.17.0.2
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/redstonelp2/GIT/risc-v/doomgeneric/doomgeneric
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+OPCODE6DIR = /usr/lib/csound/plugins64-6.0
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# environment
+MAIL = /var/spool/mail/redstonelp2
+# environment
+XDG_DATA_DIRS = /home/redstonelp2/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+# environment
+OLDPWD = /home/redstonelp2/GIT/risc-v/doomgeneric
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/redstonelp2/.config/Code - OSS/CachedData/e18005f0f1b33c29e81d732535d8c0e47cafb0b5
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session0
+# environment
+CSF_ShadersDirectory = /usr/share/opencascade/resources/Shaders
+# environment
+LANG = C
+# environment
+XAUTHORITY = /home/redstonelp2/.Xauthority
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /mnt/1TB-SSD/home/redstonelp2/GIT/risc-v/doomgeneric/doomgeneric
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+PS2DEV = /home/redstonelp2/ps2toolchain
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+CSF_MDTVTexturesDirectory = /usr/share/opencascade/resources/Textures
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+PS2SDK = /home/redstonelp2/ps2toolchain/ps2sdk
+# environment
+XDG_SESSION_DESKTOP = mate
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+ZSH = /home/redstonelp2/.oh-my-zsh
+# environment
+PT8HOME = /opt/packettracer/
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# makefile (from 'Makefile', line 29)
+SRC_DOOM = FBAccess.o i_main.o dummy.o am_map.o doomdef.o doomstat.o dstrings.o d_event.o d_items.o d_iwad.o d_loop.o d_main.o d_mode.o d_net.o f_finale.o f_wipe.o g_game.o hu_lib.o hu_stuff.o info.o i_cdmus.o i_endoom.o i_joystick.o i_scale.o i_sound.o i_system.o i_timer.o memio.o m_argv.o m_bbox.o m_cheat.o m_config.o m_controls.o m_fixed.o m_menu.o m_misc.o m_random.o p_ceilng.o p_doors.o p_enemy.o p_floor.o p_inter.o p_lights.o p_map.o p_maputl.o p_mobj.o p_plats.o p_pspr.o p_saveg.o p_setup.o p_sight.o p_spec.o p_switch.o p_telept.o p_tick.o p_user.o r_bsp.o r_data.o r_draw.o r_main.o r_plane.o r_segs.o r_sky.o r_things.o sha1.o sounds.o statdump.o st_lib.o st_stuff.o s_sound.o tables.o v_video.o wi_stuff.o w_checksum.o w_file.o w_main.o w_wad.o z_zone.o w_file_stdc.o i_input.o i_video.o doomgeneric.o doomgeneric_oc2.o
+# environment
+VSCODE_PID = 2228346
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+CUDA_PATH = /opt/cuda
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+CSF_XSMessage = /usr/share/opencascade/resources/XSMessage
+# environment
+DRAWDEFAULT = /usr/share/opencascade/resources/DrawResources/DrawDefault
+# environment
+SESSION_MANAGER = local/Manjaro-Ryzen3-1200:@/tmp/.ICE-unix/1141,unix/Manjaro-Ryzen3-1200:/tmp/.ICE-unix/1141
+# automatic
+*F = $(notdir $*)
+# environment
+PS2DEVINCLUDES = -I/home/redstonelp2/ps2toolchain/gsKit/include -I/home/redstonelp2/ps2toolchain/ps2sdk/ee/include -I/home/redstonelp2/ps2toolchain/ps2sdk/iop/include -I/home/redstonelp2/ps2toolchain/ps2sdk/ports/include -I/home/redstonelp2/ps2toolchain/ps2sdk/common/include -I/home/redstonelp2/ps2toolchain/ee/mips64r5900el-ps2-elf/include -I/home/redstonelp2/ps2toolchain/iop/lib/gcc-lib/iop/3.2.3/include -I/home/redstonelp2/ps2toolchain/ee/mips64r5900el-ps2-elf/sys-include -IPS2DEV/ee/lib/gcc/mips64r5900el-ps2-elf/10.2.0/include -I/home/redstonelp2/ps2toolchain/ee/lib/gcc/mips64r5900el-ps2-elf/10.2.0/plugin/include
+# environment
+QT_QPA_PLATFORMTHEME = qt5ct
+# environment
+CHROME_DESKTOP = code-oss.desktop
+# environment
+CSF_SHMessage = /usr/share/opencascade/resources/SHMessage
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+QT_SCALE_FACTOR = 1
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# makefile (from 'Makefile', line 11)
+VB = @
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile (from 'Makefile', line 30)
+OBJS = $(addprefix $(OBJDIR)/, $(SRC_DOOM))
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+DOTNET_BUNDLE_EXTRACT_BASE_DIR = /home/redstonelp2/.cache/dotnet_bundle_extract
+# environment
+SHLVL = 1
+# environment
+PICO_SDK_PATH = /usr/share/pico-sdk
+# environment
+CSF_TObjDefaults = /usr/share/opencascade/resources/StdResource
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /opt/jython/bin/:/home/redstonelp2/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/opt/android-sdk/platform-tools:/opt/cuda/bin:/opt/cuda/nsight_compute:/opt/cuda/nsight_systems/bin:/home/redstonelp2/.dotnet/tools:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/redstonelp2/ps2toolchain/bin:/home/redstonelp2/ps2toolchain/ee/bin:/home/redstonelp2/ps2toolchain/iop/bin:/home/redstonelp2/ps2toolchain/dvp/bin:/home/redstonelp2/ps2toolchain/ps2sdk/bin
+# default
+MAKEFILES := 
+# environment
+LC_MONETARY = de_DE.UTF-8
+# environment
+CSF_OCCTResourcePath = /usr/share/opencascade/resources
+# environment
+MOTD_SHOWN = pam
+# environment
+VIRTUAL_ENV_DISABLE_PROMPT = 1
+# automatic
+^F = $(notdir $^)
+# environment
+MATE_DESKTOP_SESSION_ID = this-is-deprecated
+# environment
+LC_TIME = de_DE.UTF-8
+# environment
+GRADLE_HOME = /usr/share/java/gradle
+# environment
+GSKIT = /home/redstonelp2/ps2toolchain/gsKit
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+CSF_StandardLiteDefaults = /usr/share/opencascade/resources/StdResource
+# environment
+CSF_STEPDefaults = /usr/share/opencascade/resources/XSTEPResource
+# environment
+LC_TELEPHONE = de_DE.UTF-8
+# automatic
+?F = $(notdir $?)
+# makefile (from 'Makefile', line 14)
+CROSS_COMPILE = 
+# environment
+XDG_SEAT = seat0
+# environment
+XDG_CURRENT_DESKTOP = MATE
+# environment
+CSF_MIGRATION_TYPES = /usr/share/opencascade/resources/StdResource/MigrationSheet.txt
+# environment
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+# automatic
++F = $(notdir $+)
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+LESS = -R
+# environment
+DESKTOP_SESSION = mate
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = MATE
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = redstonelp2
+# environment
+CSSTRNGS = /usr/share/locale
+# environment
+CSF_LANGUAGE = us
+# environment
+XDG_VTNR = 7
+# makefile
+.DEFAULT_GOAL := all
+# environment
+CSF_TObjMessage = /usr/share/opencascade/resources/TObj
+# environment
+EDITOR = /usr/bin/nano
+# environment
+DISPLAY = :0.0
+# environment
+GTK_MODULES = canberra-gtk-module
+# environment
+USER = redstonelp2
+# default
+MAKE_VERSION := 4.3
+# environment
+QT_FONT_DPI = 101
+# makefile (from 'Makefile', line 18)
+LDFLAGS = -Wl,--gc-sections
+# makefile (from 'Makefile', line 27)
+CXXSOURCES = FBAccess.cpp 
+# environment
+LC_MEASUREMENT = de_DE.UTF-8
+# environment
+PAGER = less
+# environment
+_ = /usr/bin/make
+# environment
+LC_PAPER = de_DE.UTF-8
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'Makefile', line 19)
+CFLAGS = -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -w -fpermissive -static
+# environment
+COLORTERM = truecolor
+# environment
+GTK_OVERLAY_SCROLLING = 0
+# environment
+CSF_DrawPluginDefaults = /usr/share/opencascade/resources/DrawResources
+# environment
+CSF_IGESDefaults = /usr/share/opencascade/resources/XSTEPResource
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+GTK2_RC_FILES = /home/redstonelp2/.gtkrc-2.0
+# environment
+HOME = /home/redstonelp2
+# environment
+ 
+ELECTRON_RUN_AS_NODE = 1
+# environment
+DRAWHOME = /usr/share/opencascade/resources/DrawResources
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-f1cc0fc4-1.66.0-main.sock
+# environment
+TERM = xterm-256color
+# environment
+HG = /usr/bin/hg
+# environment
+XDG_SESSION_ID = 2
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+QT_AUTO_SCREEN_SCALE_FACTOR = 1
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+VTE_VERSION = 6800
+# makefile (from 'Makefile', line 20)
+CXXFLAGS = -Wall -lstdc++ -g -static
+# environment
+XDG_GREETER_DATA_DIR = /var/lib/lightdm-data/redstonelp2
+# environment
+CSF_StandardDefaults = /usr/share/opencascade/resources/StdResource
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
+# makefile (from 'Makefile', line 15)
+CXX = $(CROSS_COMPILE)g++
+# makefile (from 'Makefile', line 16)
+CC = $(CROSS_COMPILE)gcc  
+# environment
+SPOTIPY_CLIENT_SECRET = ae539760b80548809437dd7431a3a32a
+# environment
+DOTNET_ROOT = /usr/share/dotnet
+# environment
+GDMSESSION = mate
+# environment
+LC_IDENTIFICATION = de_DE.UTF-8
+# variable set hash-table stats:
+# Load=166/1024=16%, Rehash=0, Collisions=26/216=12%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2049, inode 39510017): 202 files, no impossibilities.
+
+# 202 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+build/%.o: %.cpp
+#  recipe to execute (from 'Makefile', line 52):
+	@echo [Compiling $<]
+	$(VB)$(CXX) $(CXXFLAGS) -c -o $@ $<
+
+build/%.o: %.c
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+# 2 implicit rules, 0 (0.0%) terminal.
+# Files
+
+# Not a target:
+g_game.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+st_stuff.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.935663049
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+doomgeneric.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-17 00:29:13.69396951
+#  File has been updated.
+#  Successfully updated.
+
+build/p_tick.o: p_tick.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'p_tick'
+#  Last modified 2022-04-19 18:45:53.750269418
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+build/d_net.o: d_net.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'd_net'
+#  Last modified 2022-04-19 18:45:47.499655448
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+i_cdmus.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+build/i_timer.o: i_timer.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'i_timer'
+#  Last modified 2022-04-19 18:45:49.289831289
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+f_wipe.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+m_misc.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+build/p_maputl.o: p_maputl.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'p_maputl'
+#  Last modified 2022-04-19 18:45:51.910088665
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+build/r_sky.o: r_sky.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'r_sky'
+#  Last modified 2022-04-19 18:45:54.860378457
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+m_menu.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 23:06:28.283627664
+#  File has been updated.
+#  Successfully updated.
+
+build/r_data.o: r_data.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'r_data'
+#  Last modified 2022-04-19 18:45:54.190312641
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+p_plats.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+build/w_file_stdc.o: w_file_stdc.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'w_file_stdc'
+#  Last modified 2022-04-19 18:45:57.570644674
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+build/memio.o: memio.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'memio'
+#  Last modified 2022-04-19 18:45:49.339836201
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+p_floor.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+build/m_controls.o: m_controls.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'm_controls'
+#  Last modified 2022-04-19 18:45:49.559857814
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+p_enemy.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+build/p_floor.o: p_floor.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'p_floor'
+#  Last modified 2022-04-19 18:45:51.020001237
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+p_saveg.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+build/hu_stuff.o: hu_stuff.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'hu_stuff'
+#  Last modified 2022-04-19 18:45:48.64976842
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+build/sha1.o: sha1.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'sha1'
+#  Last modified 2022-04-19 18:45:55.650456064
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+i_joystick.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+r_bsp.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+w_checksum.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.935663049
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+f_finale.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+doomgeneric: build/FBAccess.o build/i_main.o build/dummy.o build/am_map.o build/doomdef.o build/doomstat.o build/dstrings.o build/d_event.o build/d_items.o build/d_iwad.o build/d_loop.o build/d_main.o build/d_mode.o build/d_net.o build/f_finale.o build/f_wipe.o build/g_game.o build/hu_lib.o build/hu_stuff.o build/info.o build/i_cdmus.o build/i_endoom.o build/i_joystick.o build/i_scale.o build/i_sound.o build/i_system.o build/i_timer.o build/memio.o build/m_argv.o build/m_bbox.o build/m_cheat.o build/m_config.o build/m_controls.o build/m_fixed.o build/m_menu.o build/m_misc.o build/m_random.o build/p_ceilng.o build/p_doors.o build/p_enemy.o build/p_floor.o build/p_inter.o build/p_lights.o build/p_map.o build/p_maputl.o build/p_mobj.o build/p_plats.o build/p_pspr.o build/p_saveg.o build/p_setup.o build/p_sight.o build/p_spec.o build/p_switch.o build/p_telept.o build/p_tick.o build/p_user.o build/r_bsp.o build/r_data.o build/r_draw.o build/r_main.o build/r_plane.o build/r_segs.o build/r_sky.o build/r_things.o build/sha1.o build/sounds.o build/statdump.o build/st_lib.o build/st_stuff.o build/s_sound.o build/tables.o build/v_video.o build/wi_stuff.o build/w_checksum.o build/w_file.o build/w_main.o build/w_wad.o build/z_zone.o build/w_file_stdc.o build/i_input.o build/i_video.o build/doomgeneric.o build/doomgeneric_oc2.o
+#  Implicit rule search has not been done.
+#  Last modified 2022-04-19 18:45:58.23070951
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 41):
+	@echo [Linking $@]
+	$(VB)$(CC) $(CFLAGS) $(LDFLAGS) $(OBJS) -o $(OUTPUT) $(LIBS) -Wl,-Map,$(OUTPUT).map
+	@echo [Size]
+	-$(CROSS_COMPILE)size $(OUTPUT)
+
+build/p_mobj.o: p_mobj.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'p_mobj'
+#  Last modified 2022-04-19 18:45:52.190116171
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+build/p_spec.o: p_spec.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'p_spec'
+#  Last modified 2022-04-19 18:45:53.530247806
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-19 18:45:36.568581741
+#  File has been updated.
+#  Successfully updated.
+
+build/i_scale.o: i_scale.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'i_scale'
+#  Last modified 2022-04-19 18:45:49.109813607
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+build/r_bsp.o: r_bsp.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'r_bsp'
+ 
+#  Last modified 2022-04-19 18:45:53.980292012
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+build/sounds.o: sounds.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'sounds'
+#  Last modified 2022-04-19 18:45:55.690459993
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+r_things.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.935663049
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+r_main.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+build/dstrings.o: dstrings.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'dstrings'
+#  Last modified 2022-04-19 18:45:46.749581772
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+sounds.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.935663049
+#  File has been updated.
+#  Successfully updated.
+
+build/st_stuff.o: st_stuff.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'st_stuff'
+#  Last modified 2022-04-19 18:45:56.110501251
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+build/i_video.o: i_video.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'i_video'
+#  Last modified 2022-04-19 18:45:57.740661375
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+build/p_user.o: p_user.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'p_user'
+#  Last modified 2022-04-19 18:45:53.860280223
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+build/r_segs.o: r_segs.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'r_segs'
+#  Last modified 2022-04-19 18:45:54.830375512
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+print:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 59):
+	@echo OBJS: $(OBJS)
+
+build/d_iwad.o: d_iwad.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'd_iwad'
+#  Last modified 2022-04-19 18:45:46.919598472
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+r_data.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+z_zone.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.935663049
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+m_random.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+build/m_bbox.o: m_bbox.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'm_bbox'
+#  Last modified 2022-04-19 18:45:49.389841113
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+i_input.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+build/i_system.o: i_system.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'i_system'
+#  Last modified 2022-04-19 18:45:49.259828344
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+w_file_stdc.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.935663049
+#  File has been updated.
+#  Successfully updated.
+
+build/d_loop.o: d_loop.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'd_loop'
+#  Last modified 2022-04-19 18:45:47.049611244
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+build/d_event.o: d_event.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'd_event'
+#  Last modified 2022-04-19 18:45:46.789585703
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+m_argv.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 35):
+	rm -rf $(OBJDIR)
+	rm -f $(OUTPUT)
+	rm -f $(OUTPUT).gdb
+	rm -f $(OUTPUT).map
+
+build/m_menu.o: m_menu.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'm_menu'
+#  Last modified 2022-04-19 18:45:49.959897108
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+ 
+build/p_pspr.o: p_pspr.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'p_pspr'
+#  Last modified 2022-04-19 18:45:52.550151536
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+build/w_wad.o: w_wad.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'w_wad'
+#  Last modified 2022-04-19 18:45:57.410628957
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+build/i_main.o: i_main.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'i_main'
+#  Last modified 2022-04-19 18:45:46.279535601
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+p_maputl.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+m_fixed.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+r_sky.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+m_bbox.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+m_config.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+r_segs.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 23:06:37.274541818
+#  File has been updated.
+#  Successfully updated.
+
+build/d_main.o: d_main.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'd_main'
+#  Last modified 2022-04-19 18:45:47.339639731
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+build/info.o: info.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'info'
+#  Last modified 2022-04-19 18:45:48.719775297
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+i_sound.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+d_net.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.915661021
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+p_lights.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+r_plane.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+build/m_argv.o: m_argv.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'm_argv'
+#  Last modified 2022-04-19 18:45:49.369839148
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+build/p_plats.o: p_plats.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'p_plats'
+#  Last modified 2022-04-19 18:45:52.300126976
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+i_endoom.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+build/m_fixed.o: m_fixed.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'm_fixed'
+#  Last modified 2022-04-19 18:45:49.589860761
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+w_file.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.935663049
+#  File has been updated.
+#  Successfully updated.
+
+build/w_checksum.o: w_checksum.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'w_checksum'
+#  Last modified 2022-04-19 18:45:57.190607345
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+build/i_joystick.o: i_joystick.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'i_joystick'
+#  Last modified 2022-04-19 18:45:48.799783154
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+build/p_sight.o: p_sight.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'p_sight'
+#  Last modified 2022-04-19 18:45:53.270222264
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+build/w_main.o: w_main.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'w_main'
+#  Last modified 2022-04-19 18:45:57.260614221
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+ 
+
+# Not a target:
+wi_stuff.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.935663049
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+p_doors.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+build/d_items.o: d_items.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'd_items'
+#  Last modified 2022-04-19 18:45:46.819588648
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+build/m_cheat.o: m_cheat.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'm_cheat'
+#  Last modified 2022-04-19 18:45:49.419844061
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+p_telept.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+build/FBAccess.o: FBAccess.cpp | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'FBAccess'
+#  Last modified 2022-04-19 18:45:46.249532656
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 52):
+	@echo [Compiling $<]
+	$(VB)$(CXX) $(CXXFLAGS) -c -o $@ $<
+
+# Not a target:
+p_inter.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+build/p_map.o: p_map.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'p_map'
+#  Last modified 2022-04-19 18:45:51.700068036
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+build/f_finale.o: f_finale.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'f_finale'
+#  Last modified 2022-04-19 18:45:47.70967608
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+d_main.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-17 00:26:29.507358933
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+d_event.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.915661021
+#  File has been updated.
+#  Successfully updated.
+
+build/p_telept.o: p_telept.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'p_telept'
+#  Last modified 2022-04-19 18:45:53.700264506
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+p_user.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+build/g_game.o: g_game.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'g_game'
+#  Last modified 2022-04-19 18:45:48.369740912
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+build/p_switch.o: p_switch.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'p_switch'
+#  Last modified 2022-04-19 18:45:53.640258611
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+info.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+build/r_plane.o: r_plane.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'r_plane'
+#  Last modified 2022-04-19 18:45:54.640356847
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+am_map.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.915661021
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+d_items.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.915661021
+#  File has been updated.
+#  Successfully updated.
+
+build/i_cdmus.o: i_cdmus.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'i_cdmus'
+ 
+#  Last modified 2022-04-19 18:45:48.739777261
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+build/w_file.o: w_file.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'w_file'
+#  Last modified 2022-04-19 18:45:57.220610292
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+all: doomgeneric
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+build/st_lib.o: st_lib.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'st_lib'
+#  Last modified 2022-04-19 18:45:55.830473746
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+r_draw.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+dstrings.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+build/v_video.o: v_video.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'v_video'
+#  Last modified 2022-04-19 18:45:56.610550369
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+i_timer.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+build/m_random.o: m_random.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'm_random'
+#  Last modified 2022-04-19 18:45:50.119912824
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+build:
+#  Implicit rule search has not been done.
+#  Last modified 2022-04-19 18:45:57.870674144
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 49):
+	mkdir -p $(OBJDIR)
+
+# Not a target:
+d_loop.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.915661021
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+p_tick.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+build/i_endoom.o: i_endoom.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'i_endoom'
+#  Last modified 2022-04-19 18:45:48.769780206
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+m_controls.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+i_video.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-17 00:16:49.598900543
+#  File has been updated.
+#  Successfully updated.
+
+build/am_map.o: am_map.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'am_map'
+#  Last modified 2022-04-19 18:45:46.659572931
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+build/p_setup.o: p_setup.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'p_setup'
+#  Last modified 2022-04-19 18:45:53.17021244
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+d_mode.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.915661021
+#  File has been updated.
+#  Successfully updated.
+
+build/doomgeneric_oc2.o: doomgeneric_oc2.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'doomgeneric_oc2'
+#  Last modified 2022-04-19 18:45:57.890676111
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+m_cheat.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+hu_stuff.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+build/p_inter.o: p_inter.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'p_inter'
+#  Last modified 2022-04-19 18:45:51.260024814
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+i_main.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-17 00:30:19.360608381
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+d_iwad.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.915661021
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+w_main.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.935663049
+#  File has been updated.
+#  Successfully updated.
+
+build/i_input.o: i_input.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'i_input'
+#  Last modified 2022-04-19 18:45:57.620649586
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+p_ceilng.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+p_map.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+p_pspr.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+p_mobj.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+build/r_draw.o: r_draw.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'r_draw'
+#  Last modified 2022-04-19 18:45:54.360329342
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+build/doomstat.o: doomstat.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'doomstat'
+#  Last modified 2022-04-19 18:45:46.729579807
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+st_lib.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.935663049
+#  File has been updated.
+#  Successfully updated.
+
+build/tables.o: tables.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'tables'
+#  Last modified 2022-04-19 18:45:56.350524828
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+build/m_config.o: m_config.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'm_config'
+#  Last modified 2022-04-19 18:45:49.499851918
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+v_video.c:
+#  Implicit rule search has been done.
+ 
+#  Last modified 2022-04-16 20:38:14.935663049
+#  File has been updated.
+#  Successfully updated.
+
+build/i_sound.o: i_sound.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'i_sound'
+#  Last modified 2022-04-19 18:45:49.179820484
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+build/p_enemy.o: p_enemy.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'p_enemy'
+#  Last modified 2022-04-19 18:45:50.8699865
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+dummy.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+tables.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.935663049
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+s_sound.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.935663049
+#  File has been updated.
+#  Successfully updated.
+
+build/statdump.o: statdump.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'statdump'
+#  Last modified 2022-04-19 18:45:55.730463922
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+build/f_wipe.o: f_wipe.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'f_wipe'
+#  Last modified 2022-04-19 18:45:47.819686885
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+memio.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+hu_lib.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+i_system.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+doomdef.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.915661021
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+p_switch.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+build/doomdef.o: doomdef.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'doomdef'
+#  Last modified 2022-04-19 18:45:46.689575879
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+build/r_main.o: r_main.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'r_main'
+#  Last modified 2022-04-19 18:45:54.520345058
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+build/z_zone.o: z_zone.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'z_zone'
+#  Last modified 2022-04-19 18:45:57.530640746
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+build/doomgeneric.o: doomgeneric.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'doomgeneric'
+#  Last modified 2022-04-19 18:45:57.770664323
+#  File has been updated.
+#  Successfully updated.
+ 
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+doomstat.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+sha1.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.935663049
+#  File has been updated.
+#  Successfully updated.
+
+build/m_misc.o: m_misc.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'm_misc'
+#  Last modified 2022-04-19 18:45:50.089909877
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+p_spec.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+build/r_things.o: r_things.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'r_things'
+#  Last modified 2022-04-19 18:45:55.120403998
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+build/p_doors.o: p_doors.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'p_doors'
+#  Last modified 2022-04-19 18:45:50.339934437
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+doomgeneric_oc2.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-19 17:41:44.213507864
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+i_scale.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+build/p_lights.o: p_lights.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'p_lights'
+#  Last modified 2022-04-19 18:45:51.370035619
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+build/hu_lib.o: hu_lib.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'hu_lib'
+#  Last modified 2022-04-19 18:45:48.499753684
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+build/s_sound.o: s_sound.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 's_sound'
+#  Last modified 2022-04-19 18:45:56.280517952
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+p_sight.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+build/p_saveg.o: p_saveg.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'p_saveg'
+#  Last modified 2022-04-19 18:45:52.890184935
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+ 
+
+# Not a target:
+w_wad.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 23:06:40.894909895
+#  File has been updated.
+#  Successfully updated.
+
+build/dummy.o: dummy.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'dummy'
+#  Last modified 2022-04-19 18:45:46.299537566
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+FBAccess.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-19 17:11:02.358393345
+#  File has been updated.
+#  Successfully updated.
+
+build/p_ceilng.o: p_ceilng.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'p_ceilng'
+#  Last modified 2022-04-19 18:45:50.219922649
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+p_setup.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.925662034
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+statdump.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-16 20:38:14.935663049
+#  File has been updated.
+#  Successfully updated.
+
+build/d_mode.o: d_mode.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'd_mode'
+#  Last modified 2022-04-19 18:45:47.399645626
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+build/wi_stuff.o: wi_stuff.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'wi_stuff'
+#  Last modified 2022-04-19 18:45:57.140602433
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@echo [Compiling $<]
+	$(VB)$(CC) $(CFLAGS) -c $< -o $@
+
+# files hash-table stats:
+# Load=174/1024=17%, Rehash=0, Collisions=150/686=22%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 459 / storage = 5142 B / avg = 11 B
+# current buf: size = 8162 B / used = 5142 B / count = 459 / avg = 11 B
+
+# strcache performance: lookups = 807 / hit rate = 43%
+# hash-table stats:
+# Load=459/8192=6%, Rehash=0, Collisions=19/807=2%
+# Finished Make data base on Tue Apr 19 18:49:40 2022
+
+ 
