@@ -294,13 +294,8 @@ void I_FinishUpdate (void)
         for (i = 0; i < fb_scaling; i++) {
             line_out += x_offset;
 #ifdef CMAP256
-            if (fb_scaling == 1) {
-                //memcpy(line_out, line_in, SCREENWIDTH); /* fb_width is bigger than Doom SCREENWIDTH... */
                 cmap_to_rgb565((void*)line_out, (void*)line_in, SCREENWIDTH);
-            } else {
-                //XXX FIXME fb_scaling support!
-                cmap_to_rgb565((void*)line_out, (void*)line_in, SCREENWIDTH);
-            }
+            
 #else
             //cmap_to_rgb565((void*)line_out, (void*)line_in, SCREENWIDTH);
             cmap_to_fb((void*)line_out, (void*)line_in, SCREENWIDTH);
