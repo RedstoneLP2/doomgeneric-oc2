@@ -123,8 +123,9 @@ void DG_Init(){
         exit(EXIT_FAILURE);
     }
 }
-
+/*
 void DrawFrame16Bit(){
+  
       for (int y = 0 ; y < FrameBuffer.fb_height ; y++)
     {
         for (int x = 0; x < FrameBuffer.fb_width; x++) {
@@ -137,20 +138,21 @@ void DrawFrame16Bit(){
     }
     }
 
+    
     drawFrame(FrameBuffer,FakeFrameBuffer);
     
 }
 
 uint16_t ConvertPixel(uint32_t Pixel){
-  uint8_t *PixelPointer = (uint8_t*)&Pixel;
-  uint16_t PixelOut;
-  PixelOut = ((PixelPointer[2] & 0b11111000) << 8) | ((PixelPointer[1] & 0b11111100) << 3) | (PixelPointer[0] >> 3);
-  return PixelOut;
+  uint8_t *PixelPointer = (uint8_t*)&Pixel;  
+  return ((PixelPointer[2] & 0b11111000) << 8) | ((PixelPointer[1] & 0b11111100) << 3) | (PixelPointer[0] >> 3);
 }
+*/
 
 void DG_DrawFrame()
 {
-  DrawFrame16Bit();
+  // DrawFrame16Bit();
+ drawFrame(FrameBuffer,(void*) DG_ScreenBuffer);
   //printf("Rendered frame\n");
   handleKeyInput();
   //printf("handled input\n");

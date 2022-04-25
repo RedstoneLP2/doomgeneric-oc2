@@ -1,5 +1,178 @@
-make --dry-run --keep-going --print-directory
+make --dry-run --always-make --keep-going --print-directory
 make: Entering directory '/mnt/1TB-SSD/home/redstonelp2/GIT/risc-v/doomgeneric/doomgeneric'
-make: Nothing to be done for 'all'.
+mkdir -p build
+echo [Compiling FBAccess.cpp]
+g++ -Wall -lstdc++ -g -static -c -o build/FBAccess.o FBAccess.cpp
+echo [Compiling i_main.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c i_main.c -o build/i_main.o
+echo [Compiling dummy.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c dummy.c -o build/dummy.o
+echo [Compiling am_map.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c am_map.c -o build/am_map.o
+echo [Compiling doomdef.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c doomdef.c -o build/doomdef.o
+echo [Compiling doomstat.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c doomstat.c -o build/doomstat.o
+echo [Compiling dstrings.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c dstrings.c -o build/dstrings.o
+echo [Compiling d_event.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c d_event.c -o build/d_event.o
+echo [Compiling d_items.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c d_items.c -o build/d_items.o
+echo [Compiling d_iwad.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c d_iwad.c -o build/d_iwad.o
+echo [Compiling d_loop.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c d_loop.c -o build/d_loop.o
+echo [Compiling d_main.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c d_main.c -o build/d_main.o
+echo [Compiling d_mode.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c d_mode.c -o build/d_mode.o
+echo [Compiling d_net.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c d_net.c -o build/d_net.o
+echo [Compiling f_finale.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c f_finale.c -o build/f_finale.o
+echo [Compiling f_wipe.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c f_wipe.c -o build/f_wipe.o
+echo [Compiling g_game.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c g_game.c -o build/g_game.o
+echo [Compiling hu_lib.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c hu_lib.c -o build/hu_lib.o
+echo [Compiling hu_stuff.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c hu_stuff.c -o build/hu_stuff.o
+echo [Compiling info.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c info.c -o build/info.o
+echo [Compiling i_cdmus.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c i_cdmus.c -o build/i_cdmus.o
+echo [Compiling i_endoom.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c i_endoom.c -o build/i_endoom.o
+echo [Compiling i_joystick.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c i_joystick.c -o build/i_joystick.o
+echo [Compiling i_scale.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c i_scale.c -o build/i_scale.o
+echo [Compiling i_sound.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c i_sound.c -o build/i_sound.o
+echo [Compiling i_system.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c i_system.c -o build/i_system.o
+echo [Compiling i_timer.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c i_timer.c -o build/i_timer.o
+echo [Compiling memio.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c memio.c -o build/memio.o
+echo [Compiling m_argv.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c m_argv.c -o build/m_argv.o
+echo [Compiling m_bbox.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c m_bbox.c -o build/m_bbox.o
+echo [Compiling m_cheat.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c m_cheat.c -o build/m_cheat.o
+echo [Compiling m_config.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c m_config.c -o build/m_config.o
+echo [Compiling m_controls.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c m_controls.c -o build/m_controls.o
+echo [Compiling m_fixed.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c m_fixed.c -o build/m_fixed.o
+echo [Compiling m_menu.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c m_menu.c -o build/m_menu.o
+echo [Compiling m_misc.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c m_misc.c -o build/m_misc.o
+echo [Compiling m_random.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c m_random.c -o build/m_random.o
+echo [Compiling p_ceilng.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c p_ceilng.c -o build/p_ceilng.o
+echo [Compiling p_doors.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c p_doors.c -o build/p_doors.o
+echo [Compiling p_enemy.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c p_enemy.c -o build/p_enemy.o
+echo [Compiling p_floor.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c p_floor.c -o build/p_floor.o
+echo [Compiling p_inter.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c p_inter.c -o build/p_inter.o
+echo [Compiling p_lights.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c p_lights.c -o build/p_lights.o
+echo [Compiling p_map.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c p_map.c -o build/p_map.o
+echo [Compiling p_maputl.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c p_maputl.c -o build/p_maputl.o
+echo [Compiling p_mobj.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c p_mobj.c -o build/p_mobj.o
+echo [Compiling p_plats.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c p_plats.c -o build/p_plats.o
+ 
+echo [Compiling p_pspr.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c p_pspr.c -o build/p_pspr.o
+echo [Compiling p_saveg.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c p_saveg.c -o build/p_saveg.o
+echo [Compiling p_setup.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c p_setup.c -o build/p_setup.o
+echo [Compiling p_sight.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c p_sight.c -o build/p_sight.o
+echo [Compiling p_spec.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c p_spec.c -o build/p_spec.o
+echo [Compiling p_switch.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c p_switch.c -o build/p_switch.o
+echo [Compiling p_telept.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c p_telept.c -o build/p_telept.o
+echo [Compiling p_tick.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c p_tick.c -o build/p_tick.o
+echo [Compiling p_user.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c p_user.c -o build/p_user.o
+echo [Compiling r_bsp.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c r_bsp.c -o build/r_bsp.o
+echo [Compiling r_data.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c r_data.c -o build/r_data.o
+echo [Compiling r_draw.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c r_draw.c -o build/r_draw.o
+echo [Compiling r_main.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c r_main.c -o build/r_main.o
+echo [Compiling r_plane.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c r_plane.c -o build/r_plane.o
+ 
+echo [Compiling r_segs.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c r_segs.c -o build/r_segs.o
+echo [Compiling r_sky.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c r_sky.c -o build/r_sky.o
+echo [Compiling r_things.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c r_things.c -o build/r_things.o
+echo [Compiling sha1.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c sha1.c -o build/sha1.o
+echo [Compiling sounds.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c sounds.c -o build/sounds.o
+echo [Compiling statdump.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c statdump.c -o build/statdump.o
+echo [Compiling st_lib.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c st_lib.c -o build/st_lib.o
+echo [Compiling st_stuff.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c st_stuff.c -o build/st_stuff.o
+echo [Compiling s_sound.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c s_sound.c -o build/s_sound.o
+echo [Compiling tables.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c tables.c -o build/tables.o
+echo [Compiling v_video.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c v_video.c -o build/v_video.o
+echo [Compiling wi_stuff.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c wi_stuff.c -o build/wi_stuff.o
+echo [Compiling w_checksum.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c w_checksum.c -o build/w_checksum.o
+echo [Compiling w_file.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c w_file.c -o build/w_file.o
+echo [Compiling w_main.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c w_main.c -o build/w_main.o
+echo [Compiling w_wad.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c w_wad.c -o build/w_wad.o
+echo [Compiling z_zone.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c z_zone.c -o build/z_zone.o
+echo [Compiling w_file_stdc.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c w_file_stdc.c -o build/w_file_stdc.o
+echo [Compiling i_input.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c i_input.c -o build/i_input.o
+ 
+echo [Compiling i_video.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c i_video.c -o build/i_video.o
+echo [Compiling doomgeneric.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c doomgeneric.c -o build/doomgeneric.o
+echo [Compiling doomgeneric_oc2.c]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -c doomgeneric_oc2.c -o build/doomgeneric_oc2.o
+echo [Linking doomgeneric]
+gcc   -ggdb3 -Os -ggdb3 -Wall -DNORMALUNIX -DLINUX -DSNDSERV -D_DEFAULT_SOURCE -DCMAP256 -w -fpermissive -static -Wl,--gc-sections build/FBAccess.o build/i_main.o build/dummy.o build/am_map.o build/doomdef.o build/doomstat.o build/dstrings.o build/d_event.o build/d_items.o build/d_iwad.o build/d_loop.o build/d_main.o build/d_mode.o build/d_net.o build/f_finale.o build/f_wipe.o build/g_game.o build/hu_lib.o build/hu_stuff.o build/info.o build/i_cdmus.o build/i_endoom.o build/i_joystick.o build/i_scale.o build/i_sound.o build/i_system.o build/i_timer.o build/memio.o build/m_argv.o build/m_bbox.o build/m_cheat.o build/m_config.o build/m_controls.o build/m_fixed.o build/m_menu.o build/m_misc.o build/m_random.o build/p_ceilng.o build/p_doors.o build/p_enemy.o build/p_floor.o build/p_inter.o build/p_lights.o build/p_map.o build/p_maputl.o build/p_mobj.o build/p_plats.o build/p_pspr.o build/p_saveg.o build/p_setup.o build/p_sight.o build/p_spec.o build/p_switch.o build/p_telept.o build/p_tick.o build/p_user.o build/r_bsp.o build/r_data.o build/r_draw.o build/r_main.o build/r_plane.o build/r_segs.o build/r_sky.o build/r_things.o build/sha1.o build/sounds.o build/statdump.o build/st_lib.o build/st_stuff.o build/s_sound.o build/tables.o build/v_video.o build/wi_stuff.o build/w_checksum.o build/w_file.o build/w_main.o build/w_wad.o build/z_zone.o build/w_file_stdc.o build/i_input.o build/i_video.o build/doomgeneric.o build/doomgeneric_oc2.o -o doomgeneric -lm -lc -Wl,-Map,doomgeneric.map
+echo [Size]
+size doomgeneric
 make: Leaving directory '/mnt/1TB-SSD/home/redstonelp2/GIT/risc-v/doomgeneric/doomgeneric'
  

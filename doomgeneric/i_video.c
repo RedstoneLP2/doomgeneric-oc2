@@ -47,7 +47,7 @@ rcsid[] = "$Id: i_x.c,v 1.6 1997/02/03 22:45:10 b1 Exp $";
 
 #include <sys/types.h>
 
-//#define CMAP256
+#define CMAP256
 
 struct FB_BitField
 {
@@ -179,7 +179,7 @@ void I_InitGraphics (void)
     int i;
 
 	memset(&s_Fb, 0, sizeof(struct FB_ScreenInfo));
-	s_Fb.xres = DOOMGENERIC_RESX;
+/*	s_Fb.xres = DOOMGENERIC_RESX;
 	s_Fb.yres = DOOMGENERIC_RESY;
 	s_Fb.xres_virtual = s_Fb.xres;
 	s_Fb.yres_virtual = s_Fb.yres;
@@ -194,12 +194,29 @@ void I_InitGraphics (void)
 	s_Fb.green.offset = 8;
 	s_Fb.red.offset = 16;
 	s_Fb.transp.offset = 24;
-	
+*/	
 
-    printf("I_InitGraphics: framebuffer: x_res: %d, y_res: %d, x_virtual: %d, y_virtual: %d, bpp: %d\n",
+	s_Fb.xres = DOOMGENERIC_RESX;
+	s_Fb.yres = DOOMGENERIC_RESY;
+	s_Fb.xres_virtual = s_Fb.xres;
+	s_Fb.yres_virtual = s_Fb.yres;
+	s_Fb.bits_per_pixel = 16;
+
+	s_Fb.blue.length = 5;
+	s_Fb.green.length = 6;
+	s_Fb.red.length = 5;
+	s_Fb.transp.length = 0;
+
+	s_Fb.blue.offset = 0;
+	s_Fb.green.offset = 5;
+	s_Fb.red.offset = 11;
+	s_Fb.transp.offset = 0;
+
+
+    printf("I_InitGraphics: framebuffer: x_res: %d, y_res: %d, x_virtual: %d,\n y_virtual: %d, bpp: %d\n",
             s_Fb.xres, s_Fb.yres, s_Fb.xres_virtual, s_Fb.yres_virtual, s_Fb.bits_per_pixel);
 
-    printf("I_InitGraphics: framebuffer: RGBA: %d%d%d%d, red_off: %d, green_off: %d, blue_off: %d, transp_off: %d\n",
+    printf("I_InitGraphics: framebuffer: RGBA: %d%d%d%d, red_off: %d,\n green_off: %d, blue_off: %d, transp_off: %d\n",
             s_Fb.red.length, s_Fb.green.length, s_Fb.blue.length, s_Fb.transp.length, s_Fb.red.offset, s_Fb.green.offset, s_Fb.blue.offset, s_Fb.transp.offset);
 
     printf("I_InitGraphics: DOOM screen size: w x h: %d x %d\n", SCREENWIDTH, SCREENHEIGHT);
@@ -277,10 +294,11 @@ void I_FinishUpdate (void)
         for (i = 0; i < fb_scaling; i++) {
             line_out += x_offset;
 #ifdef CMAP256
-            for (fb_scaling == 1) {
+            if (fb_scaling == 1) {
                 memcpy(line_out, line_in, SCREENWIDTH); /* fb_width is bigger than Doom SCREENWIDTH... */
             } else {
                 //XXX FIXME fb_scaling support!
+                cmap_to_rgb565((void*)line_out, (void*)line_in, SCREENWIDTH);
             }
 #else
             //cmap_to_rgb565((void*)line_out, (void*)line_in, SCREENWIDTH);
